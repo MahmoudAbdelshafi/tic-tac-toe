@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 
-        shake()
+   
         
      resultLabel.isHidden = true
     }
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
             state[sender.tag - 1] = player
         if player == 1 {
             sender.setImage(UIImage(named: "o"), for: .normal)
-            shake()
+ 
             player = 2
         }else{
             sender.setImage(UIImage(named: "x"), for: .normal)
@@ -94,13 +94,7 @@ class ViewController: UIViewController {
         
     }
     
-    func shake() {
-//        if UIDevice.current.name == "iPhone 11 Pro Max" {
-//            for i in pressed {
-//
-//        }
-          //  }
-}
+   
 
 
 }
