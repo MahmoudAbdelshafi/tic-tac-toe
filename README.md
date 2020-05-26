@@ -1,7 +1,7 @@
 # Tic Tac Toe
 
 
-Tic Tac Toe Game winning and draw states!.
+Tic Tac Toe Game with winning and draw cases.
 
 
 
